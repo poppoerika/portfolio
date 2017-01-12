@@ -1,0 +1,155 @@
+body {
+  font-family: 'Quattrocento', serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header h3 {
+  margin: 0;
+  font-weight: 350;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('marble.png');
+  background-size: cover;
+  color: black;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron p {
+  line-height: 200%;
+  font-weight: 400;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px white;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.skill-html {
+  background-color: #E55126;
+}
+
+.skill-js {
+  background-color: #E5A227;
+}
+
+.skill-jquery {
+  background-color: #0C73B8;
+}
+
+.skill-java {
+  background-color: skyblue;
+}
+
+.skill-php-sql {
+  background-color: lightgreen;
+}
+
+.skill-html,
+.skill-js,
+.skill-jquery,
+.skill-java,
+.skill-php-sql {
+  width: 100%;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+}
+
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+}
+
+.skillhtml ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: grey;
+  color: whitesmoke;
+}
+
+.projects a{
+  color: black;
+}
