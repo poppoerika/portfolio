@@ -18,6 +18,10 @@ header h1 {
   margin: 0;
 }
 
+#j-name {
+  font-family: "Mplus 1p";
+}
+
 header h3 {
   margin: 0;
   font-weight: 350;
@@ -38,7 +42,7 @@ header p {
   align-items: center;
   background-image: url('marble.png');
   background-size: cover;
-  color: black;
+
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
